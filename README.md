@@ -8,6 +8,9 @@ My progress in Placement Preparation Crash Course - Live on GFG
  ● Bitwise Operators (Bitwise AND, Bitwise OR, Bitwise XOR, Left Shift, Right
  Shift, etc )
  ● Problems: GCDandLCM, Iterative Power, Generate Power Set, etc
+
+
+ 
  Session 2: Arrays
  ● Arrays- Introduction and Advantages
  ● TypesofArrays
@@ -15,6 +18,8 @@ My progress in Placement Preparation Crash Course - Live on GFG
  ● Sliding Window Technique
  ● Problems: Largest Element in an Array, Leaders in an Array Problem, Maximum
  Subarray Sum, etc
+
+
  Session 3: Linked List
  ● Introduction to Linked List
  ● Traversing a Linked List
@@ -22,7 +27,9 @@ My progress in Placement Preparation Crash Course - Live on GFG
  ● DoublyLinked List and Circular Linked List
  ● Problems: Middle of Linked List, Deleting a Node without accessing Head
  pointer of Linked List, etc
-CONTENTS
+
+ 
+
  Session 4: Stack
  ● Stack-Introduction and Applications
  ● StackOperations (e.g. push, pop, etc)
@@ -30,6 +37,8 @@ CONTENTS
  ● Linked List Implementation of Stack
  ● Problems: Balanced Parenthesis, Next Greater Element, etc
  Session 5: Queue and Deque
+
+ 
  ● Queue-Introduction and Application
  ● Implementation of Queue using Array
  ● Implementation of Queue using Linked List
