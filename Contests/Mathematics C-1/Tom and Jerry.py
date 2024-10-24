@@ -1,117 +1,119 @@
-There is a maze of size n°n. Tom is sitting at (0, 0). Jerry is sitting in another cell. There are k pieces of cheese placed in k different cells (k <= 10). Some cells are blocked while some are not. Tom can move to 4 cells at any time (left, right, up, down one position). Tom has to collect all the pieces of cheese and then reach Jerry's cell. You need to print the minimum no. of steps required to do so.
+# There is a maze of size n°n. Tom is sitting at (0, 0). Jerry is sitting in another cell. There are k pieces of cheese placed in k different cells (k <= 10). Some cells are blocked while some are not. Tom can move to 4 cells at any time (left, right, up, down one position). Tom has to collect all the pieces of cheese and then reach Jerry's cell. You need to print the minimum no. of steps required to do so.
 
-The maze can be represented as an array of strings, where
+# The maze can be represented as an array of strings, where
 
-• if maze[i][j] is '#', then the cell is blocked,
+# • if maze[i][j] is '#', then the cell is blocked,
 
-if maze[i][j] is '*", then the maze cell is not blocked,
+# if maze[i][j] is '*", then the maze cell is not blocked,
 
-• if maze is '1', then the cell contains cheese(it is guaranteed that this cell is not blocked).
+# • if maze is '1', then the cell contains cheese(it is guaranteed that this cell is not blocked).
 
-if maze[] is 'D', then the cell is the destination cell where jerry is sitting(it is guaranteed that this cell is not blocked, and there is exactly one cell of this type)
+# if maze[] is 'D', then the cell is the destination cell where jerry is sitting(it is guaranteed that this cell is not blocked, and there is exactly one cell of this type)
 
-Note: Consider zero-based indexing.
+# Note: Consider zero-based indexing.
 
 
-Note: Consider zero-based indexing.
+# Note: Consider zero-based indexing.
 
-Input:
+# Input:
 
-maze = {"1",
-"*",
-"##D"}
+# maze = {"1",
+# "*",
+# "##D"}
 
-Output: 4
+# Output: 4
 
-Explanation:
+# Explanation:
 
-The optimal path will be (0, 0) -> (0, 1) -> (0, 2) -> (1, 2) -> (2, 2)
+# The optimal path will be (0, 0) -> (0, 1) -> (0, 2) -> (1, 2) -> (2, 2)
 
-Example 2:
+# Example 2:
 
-Input:
+# Input:
 
-maze = "1"".
+# maze = "1"".
 
-"*##".
+# "*##".
 
-"#D*"]
+# "#D*"]
 
-Output: -1
+# Output: -1
 
-Explanation: It is not possible to reach the jerry cell.
-Your Task:
+# Explanation: It is not possible to reach the jerry cell.
+# Your Task:
 
-You don't need to read, input, or print anything. Your task is to complete the function solve( ), which takes an array of string maze[] as input parameters and returns the minimum possible answer to the problem.
+# You don't need to read, input, or print anything. Your task is to complete the function solve( ), which takes an array of string maze[] as input parameters and returns the minimum possible answer to the problem.
 
-Constraints:
+# Constraints:
 
-3≤n≤100
+# 3≤n≤100
 
-maze [i][j]={ '1', 'D', '', '#}
+# maze [i][j]={ '1', 'D', '', '#}
 
-1≤k≤10
+# 1≤k≤10
 
-/{Driver Code Starts
+# /{Driver Code Starts
 
-// Initial Template for C++
+# // Initial Template for C++
 
-#include <bits/stdc++.h>
+# #include <bits/stdc++.h>
 
-using namespace std;
+# using namespace std;
 
-// Driver Code Ends
+# // Driver Code Ends
 
-//User function Template for C++
+# //User function Template for C++
 
--class Solution{
+# -class Solution{
 
-public:
+# public:
 
-int solve(vector<string> maze)
+# int solve(vector<string> maze)
 
-{
+# {
 
-//Your code here
+# //Your code here
 
-}
+# }
 
-};
+# };
 
-// Driver Code Starts.
+# // Driver Code Starts.
 
-int main()
+# int main()
 
-{
+# {
 
-int t;
+# int t;
 
-cin >> t;
+# cin >> t;
 
-while(t--)
+# while(t--)
 
-{
+# {
 
-int n;
+# int n;
 
-cin >> n;
+# cin >> n;
 
-vector<string> maze(n);
+# vector<string> maze(n);
 
-for (int i = 0; i < n; i++)
+# for (int i = 0; i < n; i++)
 
-cin >> maze[1];
+# cin >> maze[1];
 
-Solution ob;
+# Solution ob;
 
-cout << ob.solve(maze) << "\n";
+# cout << ob.solve(maze) << "\n";
 
-}
+# }
 
-return 0;
+# return 0;
 
-// Driver Code Ends
-#include <bits/stdc++.h>
+# // Driver Code Ends
+
+
+include <bits/stdc++.h>
 using namespace std;
 
 class Solution {
