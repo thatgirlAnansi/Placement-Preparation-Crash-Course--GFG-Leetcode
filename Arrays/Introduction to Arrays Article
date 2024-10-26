@@ -1,0 +1,42 @@
+What is an Array?
+An array is a collection of items of the same variable type stored that are stored at contiguous memory locations. It’s one of the most popular and simple data structures and is often used to implement other data structures. Each item in an array is indexed starting with 0.
+
+The dream of every programmer is to become not just a good, but also a great programmer. We all want to achieve our goals and to achieve our goals, we must have a great plan with us. In this context, we have decided to provide a complete guide for Arrays interview preparation, which will help you to tackle the problems that are mostly asked in the interview, such as What is an Array, What is Array in C language, How do you initialize an Array in C, How to sort an Array, etc. We have also covered the topics such as Top Theoretical interview questions and Top interview coding questions in this complete guide for Array interview preparation.
+
+We can directly access an array element by using its index value.
+
+Basic terminologies of array
+Array Index: In an array, elements are identified by their indexes. Array index starts from 0.
+Array element: Elements are items stored in an array and can be accessed by their index.
+Array Length: The length of an array is determined by the number of elements it can contain. 
+Representation of Array
+The representation of an array can be defined by its declaration. A declaration means allocating memory for an array of a given size.
+
+Array                                                                                Array
+
+Arrays can be declared in various ways in different languages. For better illustration, below are some language-specific array declarations.
+
+
+/* Static Arrays are arrays that are declared before runtime
+and are assigned values while writing the code.
+*/
+
+// The syntax of declaring a static array is:
+<data type><variable name>[]
+	= {<data1>, <data2>,…..<dataN> };
+
+// Example:
+int arr[] = { 2, 5, 6, 9, 7, 4, 3 };
+ 
+
+
+
+                                                                           Array  declaration
+
+However, the above declaration is static or compile-time memory allocation, which means that the array element’s memory is allocated when a program is compiled. Here only a fixed size (i,e. the size that is mentioned in square brackets []) of memory will be allocated for storage, but don’t you think it will not be the same situation as we know the size of the array every time, there might be a case where we don’t know the size of the array. If we declare a larger size and store a lesser number of elements will result in a wastage of memory or either be a case where we declare a lesser size then we won’t get enough memory to store the rest of the elements. In such cases, static memory allocation is not preferred.
+
+Why Array Data Structures is needed?
+Assume there is a class of five students and if we have to keep records of their marks in examination then, we can do this by declaring five variables individual and keeping track of records but what if the number of students becomes very large, it would be challenging to manipulate and maintain the data.
+
+What it means is that, we can use normal variables (v1, v2, v3, ..) when we have a small number of objects. But if we want to store a large number of instances, it becomes difficult to manage them with normal variables. The idea of an array is to represent many instances in one variable..
+
